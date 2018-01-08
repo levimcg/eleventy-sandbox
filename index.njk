@@ -1,0 +1,16 @@
+{% extends "templates/base.njk" %}
+
+{% block content %}
+    <h1>Food list</h1>
+    <ul>
+    {% for food in foods %}
+        <li>
+            <h2>{{ food.name }}</h2>
+            <p>{{ food.description }}</p>
+            <figure>
+                <img src="{{ food.image }}" alt="">
+            </figure>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

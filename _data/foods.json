@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Tacos",
+        "description": "My personal favorite. Just about any meat product with a delicious tortilla wrapped around it.",
+        "image": "http://via.placeholder.com/400x300"
+    },
+    {
+        "name": "Burrito",
+        "description": "The tacos delicious big brother. A whole meal in a confiented to-go package.",
+        "image": "http://via.placeholder.com/400x300"
+    }
+]
